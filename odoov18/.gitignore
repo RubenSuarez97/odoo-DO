@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Data and backups
+backups/*
+!backups/.gitkeep
+data/
+*.dump
+*.zip
+*.tar.gz
+
+# Enterprise addons: licensed code, uploaded to the server by other means
+addons/enterprise/*
+!addons/enterprise/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
